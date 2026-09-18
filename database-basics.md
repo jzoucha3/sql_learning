@@ -35,3 +35,10 @@
 
 # Relational DB
 - Two dbs have a relation if at least one column matches another, thus making an identifier which creates a relationship between the two
+
+
+# Primary keys
+- Those which are default on for commands (like default SORT BY)
+- They serve uniquely identify records in that table
+- Can view which in design mode
+- Identified with yellow key
