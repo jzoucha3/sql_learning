@@ -42,3 +42,16 @@
 - They serve uniquely identify records in that table
 - Can view which in design mode
 - Identified with yellow key
+
+
+# Viewing Without Using & Shorthand Query
+- You can shorthand query records using a . even if you aren't inside of a specific DB
+# Examples
+`
+# In this case we didn't have to set DB with the USE command first
+SHOW TABLES IN sql_store;
+`
+`
+# In this case we view the columns of a table in a db to determine if that's what we want before working
+SELECT * FROM sql_store.customers LIMIT 1;  
+`
